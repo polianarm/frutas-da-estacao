@@ -1,0 +1,33 @@
+.header {
+    background-color: #174605ce;
+    height: 3rem;
+  }
+  
+  /* .title {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 3rem;
+    padding-top: 1.5rem;
+  } */
+  
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .button {
+    /* margin-right: 1.5em; */
+    color: #fbf7f7;
+    border: none;
+    background-color: #17460500;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }

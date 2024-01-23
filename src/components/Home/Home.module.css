@@ -1,0 +1,16 @@
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("https://upload.wikimedia.org/wikipedia/commons/0/02/Brazilian_Fruits.jpg")
+      no-repeat;
+  background-size: cover; /* ou 'contain', dependendo da preferência */
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.997);
+  display: flex;
+  height: 80vh;
+}
+
+.home h3 {
+  color: #ffff;
+  font-size: 3rem;
+  font-family: cursive;
+}
