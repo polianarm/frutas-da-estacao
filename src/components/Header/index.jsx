@@ -3,21 +3,11 @@ import styles from "./Header.module.css";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <ul className={styles.list}>
-        <li className={styles.item}>
-          <button to="/" className={styles.button}>
-            Home
-          </button>
-        </li>
-        <li className={styles.item}>
-          <button to="/" className={styles.button}>
-            Cards
-          </button>
-        </li>
-        
-      </ul>
-
-      
+      <h2>Frutas da estação</h2>
+      <nav className={styles.nav}>
+        <a href="#">Home</a>
+        <a href="#">Frutas</a>
+      </nav>
     </header>
   );
 }
