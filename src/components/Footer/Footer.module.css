@@ -5,14 +5,14 @@
     justify-content: center;
     align-items: center;
     bottom: 0;
-    position: fixed;
+    /* position: fixed; */
     z-index: 500;
     width: 100%;
   }
   
   .footer h3 {
     color: #ffff;
-    font-family: cursive;
+    font-family: "EB Garamond", serif;
     font-weight: 600;
     font-size: 1.2rem;
   }

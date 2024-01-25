@@ -4,6 +4,7 @@ background-color: beige;
 font-family: 'EB Garamond', serif;
 display: flex;
 flex-direction: column;
+padding-bottom: 2rem;
 
 
 }
