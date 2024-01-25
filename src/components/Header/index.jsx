@@ -26,7 +26,7 @@ export default function Header() {
       <h2>FRUTAS DA ESTAÇÃO</h2>
       <nav className={styles.nav}>
         <a href="#">HOME</a>
-        <a href="#">FRUTAS</a>
+        <a href="#frutas">FRUTAS</a>
       </nav>
     </header>
   );

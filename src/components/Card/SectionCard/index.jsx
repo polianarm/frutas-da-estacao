@@ -4,7 +4,7 @@ import frutas from "../../../data/frutas.json";
 
 export default function SectionCard() {
   return (
-    <section className={styles.section}>
+    <section id="frutas" className={styles.section}>
       <h2 className={styles.titleSection}>BUSCAR FRUTAS</h2>
 
       <div className={styles.sectionCard}>
