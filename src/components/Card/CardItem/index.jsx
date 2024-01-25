@@ -4,18 +4,21 @@ export default function CardItem() {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.card}>
-        <h2>Manga</h2>
+        <h2>MANGA</h2>
         <div className={styles.cardElements}>
         <img
           src="https://img.freepik.com/fotos-premium/ilustracao-botanica-de-mangas-em-um-galho_925599-7.jpg?w=2000"
           alt=""
         ></img>
+        <div className={styles.cardInfo}>
         <span>Ásia</span>
         <span>Doce</span>
         <span>Verão e Primavera</span>
         </div>
+        </div>
       </div>
-      <div className={styles.card}>
+
+      {/* <div className={styles.card}>
         <h2>Morango</h2>
         <div className={styles.cardElements}>
         <img
@@ -38,7 +41,7 @@ export default function CardItem() {
         <span>Doce</span>
         <span>Verão e Primavera</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

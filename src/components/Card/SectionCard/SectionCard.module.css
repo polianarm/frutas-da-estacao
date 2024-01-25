@@ -1,6 +1,17 @@
 .section {
 
 background-color: beige;
+font-family: 'EB Garamond', serif;
+/* display: flex; */
 
+
+}
+
+.titleSection {
+
+display: flex;
+    
+margin: 0 auto;
+padding: 1rem;
 
 }
