@@ -1,5 +1,6 @@
 import CardItem from "../CardItem"
 import styles from "./SectionCard.module.css"
+import frutas from "../../../data/frutas.json"
 
 export default function SectionCard() {
 
@@ -7,7 +8,17 @@ export default function SectionCard() {
 return( 
 <section className={styles.section}>
     <h2 className={styles.titleSection}>BUSCAR FRUTAS</h2>
-<CardItem />
+
+<div className={styles.sectionCard}>
+    {frutas.map((item, index ) => <CardItem key={index} {...item} />)
+    
+    
+    }
+    
+    
+    
+    </div>    
+
 
 </section>
 )

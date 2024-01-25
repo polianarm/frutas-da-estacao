@@ -1,19 +1,27 @@
 import styles from "./CardItem.module.css";
 
-export default function CardItem() {
+// id": 1,
+//     "nome": "Manga",
+//     "estacao": ["Verão", "Primavera"],
+//     "cores": [{"cor": "Amarelo"}, {"cor":"Verde"}],
+//     "origem": "Ásia",
+//     "sabor": "Doce",
+//     "imagem":
+
+export default function CardItem({nome, estacao, origem, sabor, imagem}) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.card}>
-        <h2>MANGA</h2>
+        <h2>{nome}</h2>
         <div className={styles.cardElements}>
-        <img
-          src="https://img.freepik.com/fotos-premium/ilustracao-botanica-de-mangas-em-um-galho_925599-7.jpg?w=2000"
+        <img  className={styles.imagem}
+          src={imagem}
           alt=""
         ></img>
         <div className={styles.cardInfo}>
-        <span>Ásia</span>
-        <span>Doce</span>
-        <span>Verão e Primavera</span>
+        <span>{origem}</span>
+        <span>{sabor}</span>
+        <span>{estacao}</span>
         </div>
         </div>
       </div>

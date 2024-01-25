@@ -2,7 +2,8 @@
 
 background-color: beige;
 font-family: 'EB Garamond', serif;
-/* display: flex; */
+display: flex;
+flex-direction: column;
 
 
 }
@@ -10,8 +11,20 @@ font-family: 'EB Garamond', serif;
 .titleSection {
 
 display: flex;
-    
-margin: 0 auto;
+width: 100%;    
+align-items: center;
+justify-content: center;
 padding: 1rem;
+color: #174605ce;
+
+}
+
+.sectionCard {
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
 
 }

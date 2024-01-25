@@ -1,8 +1,7 @@
 .cardContainer {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
-  padding: 3rem;
+  padding: 1.4rem;
 
 }
 
@@ -11,11 +10,11 @@
   flex-direction: column;
   /* justify-content: space-around; */
   background-color: blanchedalmond;
-  width: 22rem;
+  width: 24rem;
   height: 17rem;
-  outline: 2px solid rgba(1, 50, 1, 0.805);
-  outline-offset: -2px;
-  border: 2px solid rgba(244, 250, 75, 0.394);
+  outline: 2px solid rgba(1, 50, 1, 0.481);
+  outline-offset: -4px;
+  border: 2px solid rgba(61, 80, 55, 0.745);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -56,6 +55,6 @@
   align-items: self-start;
   justify-content: center;
   font-family: "EB Garamond", serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
  
 }

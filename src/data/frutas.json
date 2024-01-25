@@ -2,59 +2,59 @@
   {
     "id": 1,
     "nome": "Manga",
-    "estacao": ["Verão", "Primavera"],
-    "cores": [{"cor": "Amarelo"}, {"cor":"Verde"}],
+    "estacao": ["Verão ", "Primavera "],
+    "cores": [{"cor": "Amarelo "}, {"cor":"Verde "}],
     "origem": "Ásia",
-    "sabor": "Doce",
-    "imagem": "https://images.tcdn.com.br/img/img_prod/694142/muda_de_manga_tommy_1985_4_5f00174cc0eec745354b883df4dc1228.jpeg"
+    "sabor": "Doce ",
+    "imagem": "https://i.pinimg.com/564x/02/21/fe/0221feb982f30fe56eb3ce6275c2827d.jpg"
   },
 
   {
     "id": 2,
-    "nome": "Banana",
-    "estacao": ["Ano Todo"],
-    "cores": ["Amarelo"],
-    "origem": "Sudeste da Ásia",
-    "sabor": "Doce",
-    "imagem": "https://example.com/banana_image"
+    "nome": "Banana ",
+    "estacao": ["Ano Todo "],
+    "cores": ["Amarelo "],
+    "origem": "Sudeste da Ásia ",
+    "sabor": "Doce ",
+    "imagem": "https://i.pinimg.com/564x/1c/ef/75/1cef759026e11f8e48b44d1b8107f336.jpg"
   },
 
   {
     "id": 3,
     "nome": "Morango",
-    "estacao": ["Primavera", "Verão"],
-    "cores": ["Vermelho"],
-    "origem": ["Europa", "América do Norte"],
-    "sabor": ["Adocicado", "Ácido"],
-    "imagem": "https://example.com/strawberry_image"
+    "estacao": ["Primavera ", "Verão "],
+    "cores": ["Vermelho "],
+    "origem": ["Europa ", "América do Norte "],
+    "sabor": ["Adocicado ", "Ácido "],
+    "imagem": "https://i.pinimg.com/564x/c6/4a/6a/c64a6a7e9499264103104a2f8940251e.jpg"
   },
 
   {
     "id": 4,
     "nome": "Abacaxi",
-    "estacao": ["Primavera", "Verão"],
+    "estacao": ["Primavera ", "Verão"],
     "cores": ["Amarelo"],
     "origem": "América do Sul",
-    "sabor": ["Doce", "Refrescante"],
-    "imagem": "https://example.com/pineapple_image"
+    "sabor": ["Doce ", "Refrescante "],
+    "imagem": "https://64.media.tumblr.com/tumblr_lsjr4p7xUS1qhgleno1_500.jpg"
   },
 
   {
     "id": 5,
     "nome": "Pêssego",
-    "estacao": ["Primavera", "Verão"],
-    "cores": ["Amarelo", "Rosado"],
-    "origem": "China",
-    "sabor": ["Doce", "Suculento"],
-    "imagem": "https://example.com/peach_image"
+    "estacao": ["Primavera ", "Verão "],
+    "cores": ["Amarelo ", "Rosado "],
+    "origem": "China" ,
+    "sabor": ["Doce ", "Suculento "],
+    "imagem": "https://i.pinimg.com/564x/1e/87/2e/1e872ea17e59a6e46a5eedc370881a3d.jpg"
   },
   {
     "id": 6,
     "nome": "Uva",
-    "estacao": ["Verão", "Outono"],
-    "cores": ["Verde", "Vermelha", "Roxa"],
-    "origem": ["Europa", "Ásia"],
-    "sabor": ["Doce", "Levemente ácido"],
-    "imagem": "https://example.com/grape_image"
+    "estacao": ["Verão ", "Outono "],
+    "cores": ["Verde ", "Vermelha ", "Roxa "],
+    "origem": ["Europa ", "Ásia "],
+    "sabor": ["Doce ", "Levemente ácido "],
+    "imagem": "https://i.pinimg.com/564x/93/19/53/931953a343bd8d63e7ed9920bea49efc.jpg"
   }
 ]
