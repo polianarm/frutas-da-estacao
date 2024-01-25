@@ -16,7 +16,7 @@
     "cores": ["Amarelo "],
     "origem": "Sudeste da Ásia ",
     "sabor": "Doce ",
-    "imagem": "https://i.pinimg.com/564x/1c/ef/75/1cef759026e11f8e48b44d1b8107f336.jpg"
+    "imagem": "https://img.freepik.com/free-vector/vintage-illustration-banana_53876-59239.jpg?w=740&t=st=1706211152~exp=1706211752~hmac=9f31b3c8fbdf104c1d1b8bd6e9661d5a9024db0996378365f1f5f37810e06d88"
   },
 
   {
@@ -26,7 +26,7 @@
     "cores": ["Vermelho "],
     "origem": ["Europa ", "América do Norte "],
     "sabor": ["Adocicado ", "Ácido "],
-    "imagem": "https://i.pinimg.com/564x/c6/4a/6a/c64a6a7e9499264103104a2f8940251e.jpg"
+    "imagem": "https://www.publicdomainpictures.net/pictures/290000/nahled/strawberries-vintage-illustration.jpg"
   },
 
   {
@@ -46,7 +46,7 @@
     "cores": ["Amarelo ", "Rosado "],
     "origem": "China" ,
     "sabor": ["Doce ", "Suculento "],
-    "imagem": "https://i.pinimg.com/564x/1e/87/2e/1e872ea17e59a6e46a5eedc370881a3d.jpg"
+    "imagem": "https://www.publicdomainpictures.net/pictures/370000/nahled/pfirsich-frucht-vintage-kunst.jpg"
   },
   {
     "id": 6,
@@ -55,6 +55,6 @@
     "cores": ["Verde ", "Vermelha ", "Roxa "],
     "origem": ["Europa ", "Ásia "],
     "sabor": ["Doce ", "Levemente ácido "],
-    "imagem": "https://www.publicdomainpictures.net/pictures/420000/nahled/obst-weintrauben-vintage-alt-1633349199rsF.jpg"
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Uva_Barbera_-_Giorgio_Gallesio.jpg/668px-Uva_Barbera_-_Giorgio_Gallesio.jpg"
   }
 ]
