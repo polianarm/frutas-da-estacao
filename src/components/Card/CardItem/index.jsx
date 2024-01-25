@@ -19,9 +19,9 @@ export default function CardItem({nome, estacao, origem, sabor, imagem}) {
           alt=""
         ></img>
         <div className={styles.cardInfo}>
-        <span>{origem}</span>
-        <span>{sabor}</span>
-        <span>{estacao}</span>
+        <p>Origem: <span>{origem}</span></p>
+        <p>Sabor: <span>{sabor}</span></p>
+        <p>Estação: <span>{estacao}</span></p>
         </div>
         </div>
       </div>
