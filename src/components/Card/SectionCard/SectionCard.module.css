@@ -1,5 +1,10 @@
 .section {
   background-color: beige;
+  background:
+    url("https://img.freepik.com/fotos-gratis/bege-envelhecido-fundo_53876-88685.jpg?w=1380&t=st=1706292196~exp=1706292796~hmac=60617bd7463d0077d8bf007076728b3b4fbf524fdbd3159472d65dfd3985a699")
+      no-repeat;
+  background-size: cover; /* ou 'contain', dependendo da preferência */
+  background-position: center;
   font-family: "EB Garamond", serif;
   display: flex;
   flex-direction: column;
