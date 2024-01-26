@@ -1,31 +1,57 @@
 .section {
+  background-color: beige;
+  font-family: "EB Garamond", serif;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
 
-background-color: beige;
-font-family: 'EB Garamond', serif;
-display: flex;
-flex-direction: column;
-padding-bottom: 2rem;
+.filtroNome {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 2rem; */
+  /* align-items: center; */
+  justify-content: flex-start;
+  padding: 2rem 10rem;
+}
 
+.filtroNome input {
+  height: 2rem;
+  font-family: "EB Garamond", serif;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
 
+.filtroSabor {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 2rem; */
+  /* align-items: center; */
+  justify-content: flex-start;
+  padding: 1rem 10rem 2rem 10rem;
+}
+
+.filtroSabor select {
+  height: 2rem;
+  font-family: "EB Garamond", serif;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 .titleSection {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
 
-display: flex;
-width: 100%;    
-align-items: center;
-justify-content: center;
-padding: 1rem;
-color: #174605ce;
-
+  color: #174605ce;
 }
 
 .sectionCard {
-
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-
-
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

@@ -5,17 +5,17 @@
     "estacao": ["Verão ", "Primavera "],
     "cores": [{"cor": "Amarelo "}, {"cor":"Verde "}],
     "origem": "Ásia",
-    "sabor": "Doce ",
+    "sabor": "Doce",
     "imagem": "https://i.pinimg.com/564x/02/21/fe/0221feb982f30fe56eb3ce6275c2827d.jpg"
   },
 
   {
     "id": 2,
     "nome": "Banana ",
-    "estacao": ["Ano Todo "],
-    "cores": ["Amarelo "],
+    "estacao": "Ano Todo",
+    "cores": "Amarelo",
     "origem": "Sudeste da Ásia ",
-    "sabor": "Doce ",
+    "sabor": "Doce",
     "imagem": "https://img.freepik.com/free-vector/vintage-illustration-banana_53876-59239.jpg?w=740&t=st=1706211152~exp=1706211752~hmac=9f31b3c8fbdf104c1d1b8bd6e9661d5a9024db0996378365f1f5f37810e06d88"
   },
 
@@ -23,9 +23,9 @@
     "id": 3,
     "nome": "Morango",
     "estacao": ["Primavera ", "Verão "],
-    "cores": ["Vermelho "],
+    "cores": "Vermelho",
     "origem": ["Europa ", "América do Norte "],
-    "sabor": ["Adocicado ", "Ácido "],
+    "sabor": "Ácido",
     "imagem": "https://www.publicdomainpictures.net/pictures/290000/nahled/strawberries-vintage-illustration.jpg"
   },
 
@@ -33,9 +33,9 @@
     "id": 4,
     "nome": "Abacaxi",
     "estacao": ["Primavera ", "Verão"],
-    "cores": ["Amarelo"],
+    "cores": "Amarelo",
     "origem": "América do Sul",
-    "sabor": ["Doce ", "Refrescante "],
+    "sabor": "Agridoce",
     "imagem": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pineapple-botanical-study-i-naomi-mccavitt.jpg"
   },
 
@@ -45,7 +45,7 @@
     "estacao": ["Primavera ", "Verão "],
     "cores": ["Amarelo ", "Rosado "],
     "origem": "China" ,
-    "sabor": ["Doce ", "Suculento "],
+    "sabor": "Doce",
     "imagem": "https://www.publicdomainpictures.net/pictures/370000/nahled/pfirsich-frucht-vintage-kunst.jpg"
   },
   {
@@ -54,7 +54,7 @@
     "estacao": ["Verão ", "Outono "],
     "cores": ["Verde ", "Vermelha ", "Roxa "],
     "origem": ["Europa ", "Ásia "],
-    "sabor": ["Doce ", "Levemente ácido "],
+    "sabor": "Ácido",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Uva_Barbera_-_Giorgio_Gallesio.jpg/668px-Uva_Barbera_-_Giorgio_Gallesio.jpg"
   }
 ]
