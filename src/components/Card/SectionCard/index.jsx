@@ -15,15 +15,27 @@ export default function SectionCard() {
 
   function getSeasons() {
     const seasonsList = [];
-
+  
     frutas.forEach((fruta) => {
-      if (!seasonsList.includes(fruta.estacao)) {
-        seasonsList.push(fruta.estacao);
+      if (Array.isArray(fruta.estacao)) {
+        // Se for uma lista, adiciona cada estação que ainda não está na lista
+        fruta.estacao.forEach((estacao) => {
+          if (!seasonsList.includes(estacao)) {
+            seasonsList.push(estacao);
+          }
+        });
+      } else {
+        // Se for uma única estação, adiciona se ainda não está na lista
+        if (!seasonsList.includes(fruta.estacao)) {
+          seasonsList.push(fruta.estacao);
+        }
       }
     });
-
+  
     setSeasons(seasonsList);
   }
+  
+  
 
   useEffect(() => {
     getSeasons();
@@ -111,11 +123,7 @@ export default function SectionCard() {
               : false
           )
           .filter((fruta) =>
-            filterSeasons === "All"
-              ? true
-              : filterSeasons === fruta.estacao
-              ? true
-              : false
+          filterSeasons === "All" || fruta.estacao.includes(filterSeasons)
           )
           .filter((fruta) =>
             fruta.nome.toLowerCase().includes(search.toLowerCase())
@@ -138,11 +146,7 @@ export default function SectionCard() {
               : false
           )
           .filter((fruta) =>
-            filterSeasons === "All"
-              ? true
-              : filterSeasons === fruta.estacao
-              ? true
-              : false
+          filterSeasons === "All" || fruta.estacao.includes(filterSeasons)
           )
           .filter((fruta) =>
             fruta.nome.toLowerCase().includes(search.toLowerCase())
