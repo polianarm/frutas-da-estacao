@@ -1,9 +1,8 @@
 .section {
   background-color: beige;
-  background:
-    url("https://img.freepik.com/fotos-gratis/bege-envelhecido-fundo_53876-88685.jpg?w=1380&t=st=1706292196~exp=1706292796~hmac=60617bd7463d0077d8bf007076728b3b4fbf524fdbd3159472d65dfd3985a699")
-      no-repeat;
-  background-size: cover; /* ou 'contain', dependendo da preferência */
+  background: url("https://img.freepik.com/fotos-gratis/bege-envelhecido-fundo_53876-88685.jpg?w=1380&t=st=1706292196~exp=1706292796~hmac=60617bd7463d0077d8bf007076728b3b4fbf524fdbd3159472d65dfd3985a699")
+    no-repeat;
+  background-size: cover; 
   background-position: center;
   font-family: "EB Garamond", serif;
   display: flex;
@@ -14,35 +13,80 @@
 .filtroNome {
   display: flex;
   flex-direction: column;
-  /* margin-left: 2rem; */
-  /* align-items: center; */
   justify-content: flex-start;
   padding: 2rem 10rem;
 }
 
 .filtroNome input {
-  height: 2rem;
+ 
   font-family: "EB Garamond", serif;
-  padding: 1rem;
+  padding: 0.6rem 1rem;
   font-size: 1rem;
   margin-top: 0.5rem;
+  border: 0.08rem solid #6b8e23; 
+}
+
+.cardFiltro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10rem;
+ 
+}
+
+.button {
+  background-color: #6b8e23; /* Verde Musgo */
+  color: #fff; /* Texto branco */
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 1rem;
+}
+
+.button:hover {
+  background-color: #556b2f; /* Verde Musgo mais escuro ao passar o mouse */
+}
+
+.buttonClear {
+  background-color: #ed4e26; /* Verde Musgo */
+  color: #fff; /* Texto branco */
+  padding: 0.6rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2.6rem;
+  margin-left: 2rem;
+}
+
+.buttonClear:hover {
+  background-color: #f26a0fc5; /* Verde Musgo mais escuro ao passar o mouse */
 }
 
 .filtro {
   display: flex;
   flex-direction: column;
-  /* margin-left: 2rem; */
-  /* align-items: center; */
   justify-content: flex-start;
-  padding: 1rem 10rem 2rem 10rem;
+  margin-right: 4rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+  color: #174605ce;
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
 .filtro select {
-  height: 2rem;
+  padding: 0.4rem 2.5rem;
   font-family: "EB Garamond", serif;
-  padding: 1rem;
+  padding-left: 0.4rem;
   font-size: 1rem;
   margin-top: 0.5rem;
+  color: #174605ce;
+  border: 0.08rem solid #6b8e23; 
 }
 
 .titleSection {
@@ -59,4 +103,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+.informe {
 }

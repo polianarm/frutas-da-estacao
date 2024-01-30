@@ -29,6 +29,14 @@ export default function SectionCard() {
     getSeasons();
   }, []);
 
+  //limpar formatações
+  const clearFilters = () => {
+    setSearch("");
+    setFilterFlavor("All");
+    setFilterSeasons("All");
+    setSort("Asc");
+  };
+
   return (
     <section id="frutas" className={styles.section}>
       {/* buscar por nome */}
@@ -83,9 +91,13 @@ export default function SectionCard() {
         <div className={styles.filtro}>
           <p>Ordem alfabética</p>
           <div className={styles.filterButton}>
-            <button onClick={() => setSort("Asc")}>Asc</button>
-            <button onClick={() => setSort("Desc")}>Desc</button>
+            <button className={styles.button} onClick={() => setSort("Asc")}>Asc</button>
+            <button  className={styles.button} onClick={() => setSort("Desc")}>Desc</button>
           </div>
+        </div>
+
+        <div className={styles.filtro}>
+          <button className={styles.buttonClear} onClick={clearFilters} >Limpar</button>
         </div>
       </div>
 
