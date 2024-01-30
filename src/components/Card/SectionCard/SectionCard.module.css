@@ -28,7 +28,7 @@
   margin-top: 0.5rem;
 }
 
-.filtroSabor {
+.filtro {
   display: flex;
   flex-direction: column;
   /* margin-left: 2rem; */
@@ -37,7 +37,7 @@
   padding: 1rem 10rem 2rem 10rem;
 }
 
-.filtroSabor select {
+.filtro select {
   height: 2rem;
   font-family: "EB Garamond", serif;
   padding: 1rem;
