@@ -1,5 +1,5 @@
 .home {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background: linear-gradient(rgba(0, 0, 0, 0.739), rgba(0, 0, 0, 0.812)),
     url("https://upload.wikimedia.org/wikipedia/commons/0/02/Brazilian_Fruits.jpg")
       no-repeat;
   background-size: cover; /* ou 'contain', dependendo da preferência */
@@ -12,18 +12,39 @@
   align-items: center;
 }
 
+.homeText {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
 .homeText h2 {
+  grid-column: 1 / span 1; /* Indica que o h2 ocupará uma coluna */
   color: #ffff;
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'EB Garamond', serif;
-  margin: 1rem 5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .homeText h3 {
+  grid-column: 1 / span 1; /* Indica que o h3 ocupará uma coluna */
   color: #ffff;
   font-size: 1.5rem;
   font-family: 'EB Garamond', serif;
-  font-weight: 400;
-  margin: 1rem 25rem 2rem 5rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .homeText {
+    grid-template-columns:  1fr;
+  }
+
+  .homeText h3 {
+
+    display: none;
+  }
 }

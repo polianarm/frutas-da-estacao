@@ -25,11 +25,13 @@ header h2 {
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: end;
   text-decoration: none;
   list-style: none;
   gap: 1rem;
+  margin-right: 1rem;
 }
 
 .nav a {

@@ -75,6 +75,8 @@ export default function SectionCard() {
             <option value="Doce">Doce</option>
             <option value="Ácido">Ácido</option>
             <option value="Agridoce">Agridoce</option>
+            <option value="Azedo">Azedo</option>
+            <option value="Amargo">Amargo</option>
           </select>
         </div>
 

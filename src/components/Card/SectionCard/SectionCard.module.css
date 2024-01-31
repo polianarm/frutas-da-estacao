@@ -14,8 +14,9 @@
 .filtroNome {
   display: flex;
   flex-direction: column;
+
   justify-content: flex-start;
-  padding: 2rem 10rem;
+  padding: 4rem 10rem;
 }
 
 .filtroNome input {
@@ -31,20 +32,31 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 10rem;
+  justify-content: space-evenly;
+
  
 }
+
+.filterButton {
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;  
+align-items: center;
+justify-content: center;
+gap: 1rem;
+} 
 
 .button {
   background-color: #6b8e23; /* Verde Musgo */
   color: #fff; /* Texto branco */
-  padding: 0.6rem 1.4rem;
+  padding: 0.6rem 2rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  margin-right: 1rem;
+ 
 }
 
 .button:hover {
@@ -54,14 +66,13 @@
 .buttonClear {
   background-color: #ed4e26; /* Verde Musgo */
   color: #fff; /* Texto branco */
-  padding: 0.6rem 2.5rem;
+  padding: 0.6rem 4rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 2.6rem;
-  margin-left: 2rem;
 }
 
 .buttonClear:hover {
@@ -72,7 +83,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 4rem;
   padding-bottom: 1rem;
   gap: 1rem;
   color: #174605ce;
@@ -81,7 +91,7 @@
 }
 
 .filtro select {
-  padding: 0.4rem 2.5rem;
+  padding: 0.4rem 10rem;
   font-family: "EB Garamond", serif;
   padding-left: 0.4rem;
   font-size: 1rem;
@@ -107,4 +117,10 @@
 }
 
 .informe {
+}
+
+@media screen and (min-width: 768px) {
+  .homeText {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

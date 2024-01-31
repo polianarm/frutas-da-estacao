@@ -56,5 +56,33 @@
     "origem": ["Europa ", "Ásia "],
     "sabor": "Ácido",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Uva_Barbera_-_Giorgio_Gallesio.jpg/668px-Uva_Barbera_-_Giorgio_Gallesio.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Maçã",
+    "estacao": ["Outono ", "Inverno "],
+    "cores": ["Vermelho", "Verde", "Amarelo"],
+    "origem": ["Europa ", "Ásia "],
+    "sabor": "Doce",
+    "imagem": "https://i.pinimg.com/564x/5b/00/8a/5b008abad8624f0489c489b04de07597.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Romã",
+    "estacao": ["Outono ", "Inverno "],
+    "cores": "Vermelho",
+    "origem": "Mediterrâneo",
+    "sabor": "Agridoce",
+    "imagem": "https://i.pinimg.com/564x/19/c2/4e/19c24e9d9fe96bd8720b79c981bf42fd.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Cacau",
+    "estacao": "Ano Todo",
+    "cores": ["Marrom"],
+    "origem": "América",
+    "sabor": "Amargo",
+    "imagem": "https://i.pinimg.com/564x/9b/56/98/9b5698d299ed5aaed000276ea5b196f6.jpg"
   }
+  
 ]
