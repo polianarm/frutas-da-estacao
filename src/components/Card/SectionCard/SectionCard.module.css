@@ -8,19 +8,24 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
+}
 
+.titleSection {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start; 
+  color: #174605ce; 
 }
 
 .filtroNome {
   display: flex;
   flex-direction: column;
-
-  justify-content: flex-start;
-  padding: 4rem 10rem;
+  justify-content: center;
+  padding: 4rem 10rem; 
 }
 
 .filtroNome input {
- 
   font-family: "EB Garamond", serif;
   padding: 0.6rem 1rem;
   font-size: 1rem;
@@ -32,13 +37,33 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
+  margin: 1rem 2.4rem 2rem;
+  gap: 1rem;
+}
 
- 
+.filtro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+  gap: 1rem;
+  color: #174605ce;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.filtro select {
+  padding: 0.4rem 8rem;
+  font-family: "EB Garamond", serif;
+  padding-left: 0.4rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #174605ce;
+  border: 0.08rem solid #6b8e23; 
 }
 
 .filterButton {
-
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;  
@@ -50,22 +75,21 @@ gap: 1rem;
 .button {
   background-color: #6b8e23; /* Verde Musgo */
   color: #fff; /* Texto branco */
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 2.5rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
- 
 }
 
 .button:hover {
-  background-color: #556b2f; /* Verde Musgo mais escuro ao passar o mouse */
+  background-color: #556b2f; 
 }
 
 .buttonClear {
-  background-color: #ed4e26; /* Verde Musgo */
-  color: #fff; /* Texto branco */
+  background-color: #f2290f; 
+  color: #fff; 
   padding: 0.6rem 4rem;
   border: none;
   border-radius: 5px;
@@ -76,37 +100,7 @@ gap: 1rem;
 }
 
 .buttonClear:hover {
-  background-color: #f26a0fc5; /* Verde Musgo mais escuro ao passar o mouse */
-}
-
-.filtro {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-bottom: 1rem;
-  gap: 1rem;
-  color: #174605ce;
-  font-weight: 600;
-  font-size: 1.3rem;
-}
-
-.filtro select {
-  padding: 0.4rem 10rem;
-  font-family: "EB Garamond", serif;
-  padding-left: 0.4rem;
-  font-size: 1rem;
-  margin-top: 0.5rem;
-  color: #174605ce;
-  border: 0.08rem solid #6b8e23; 
-}
-
-.titleSection {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: flex-start;
-
-  color: #174605ce;
+  background-color: #f2290fda; 
 }
 
 .sectionCard {
@@ -117,10 +111,19 @@ gap: 1rem;
 }
 
 .informe {
+  color:  #f2290f; 
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
 }
 
-@media screen and (min-width: 768px) {
-  .homeText {
-    grid-template-columns: repeat(3, 1fr);
+@media screen and (max-width: 600px) {
+  
+  .filtro {
+    align-items: center;
+  }
+ 
+  .filtroNome {
+    padding:  2rem 3rem; ;
   }
 }
